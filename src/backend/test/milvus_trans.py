@@ -18,7 +18,7 @@ params['connection_args'] = {
 params['documents'] = []
 embedding = HostEmbeddings(model='multilingual-e5-large',
                            host_base_url='http://192.168.106.12:9001/v2.1/models')
-
+#111
 database_url = 'mysql+pymysql://root:E1SkG0PaDMEPTAxY@192.168.106.116:3306/langflow?charset=utf8mb4'
 engine = create_engine(database_url, connect_args={}, pool_pre_ping=True)
 
